@@ -67,7 +67,6 @@ homebrew_installed_packages:
   - wget
   - wrk
   - zsh-history-substring-search
-  - naisdevice #navspseifikt
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -83,6 +82,8 @@ homebrew_cask_apps:
   - vagrant
   - visual-studio-code
   - jetbrains-toolbox
+  - iterm2
+  - naisdevice #navspseifikt
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
