@@ -83,6 +83,8 @@ homebrew_cask_apps:
   - visual-studio-code
   - jetbrains-toolbox
   - iterm2
+  - alfred
+  - cleanshot
   - naisdevice #navspseifikt
 
 # See `geerlingguy.mas` role documentation for usage instructions.

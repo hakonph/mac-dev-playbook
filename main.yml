@@ -51,3 +51,12 @@
         loop_var: outer_item
       with_fileglob: "{{ post_provision_tasks|default(omit) }}"
       tags: ['post']
+
+    - name: Make all extensions visible
+      osx_defaults:
+        domain: NSGlobalDomain
+        key: AppleShowAllExtensions
+        type: bool
+        value: true
+       state: present
+      register: default_set_extension
