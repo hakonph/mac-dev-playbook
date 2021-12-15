@@ -37,7 +37,8 @@ dotfiles_files:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
-  - nais/tap  #navspseifikt
+  - jakehilborn/jakehilborn # for displayplacer
+  - nais/tap  #navspseifikt for naisdevice
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
@@ -68,8 +69,10 @@ homebrew_installed_packages:
   - wrk
   - zsh-history-substring-search
   - kubectl
+  - kubectx
   - gradle
   - maven
+  - displayplacer
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
