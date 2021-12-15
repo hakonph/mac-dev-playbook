@@ -58,5 +58,5 @@
         key: AppleShowAllExtensions
         type: bool
         value: true
-       state: present
+        state: present
       register: default_set_extension
