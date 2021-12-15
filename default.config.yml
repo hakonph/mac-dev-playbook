@@ -67,6 +67,9 @@ homebrew_installed_packages:
   - wget
   - wrk
   - zsh-history-substring-search
+  - kubectl
+  - gradle
+  - maven
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
